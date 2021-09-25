@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{8A7DE9F7-9B21-C7AD-BE72-24A2A49ABE91}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UIManager.cs">
+    <Files>
+      <File FileName="Assets/Scripts/BallController.cs" Line="26" Column="48" />
+      <File FileName="Assets/Scripts/CameraController.cs" Line="21" Column="18" />
+      <File FileName="Assets/Scripts/HelixController.cs" Line="19" Column="25" />
+      <File FileName="Assets/Scripts/GameManager.cs" Line="35" Column="29" />
+      <File FileName="Assets/Scripts/UIManager.cs" Line="7" Column="27" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Helix Jump" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="UIManager.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a3089b31-bb24-469c-812d-f2d142661e59" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
