@@ -53,11 +53,15 @@
     <UnityVersion>2020.3.16f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets/Scripts/BallController.cs" />
-    <Compile Include="Assets/Scripts/CameraController.cs" />
     <Compile Include="Assets/Scripts/HelixController.cs" />
+    <Compile Include="Assets/Scripts/CameraController.cs" />
+    <Compile Include="Assets/Scripts/BallController.cs" />
     <Compile Include="Assets/Scripts/GameManager.cs" />
     <Compile Include="Assets/Scripts/UIManager.cs" />
+    <Compile Include="Assets/Scripts/Goal.cs" />
+    <Compile Include="Assets/Scripts/PassCheck.cs" />
+    <Compile Include="Assets/Scripts/DeathPart.cs" />
+    <Compile Include="Assets/Scripts/Stage.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -1,11 +1,15 @@
 ﻿<Properties StartupConfiguration="{8A7DE9F7-9B21-C7AD-BE72-24A2A49ABE91}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UIManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Stage.cs">
     <Files>
-      <File FileName="Assets/Scripts/BallController.cs" Line="26" Column="48" />
-      <File FileName="Assets/Scripts/CameraController.cs" Line="21" Column="18" />
-      <File FileName="Assets/Scripts/HelixController.cs" Line="19" Column="25" />
-      <File FileName="Assets/Scripts/GameManager.cs" Line="35" Column="29" />
-      <File FileName="Assets/Scripts/UIManager.cs" Line="7" Column="27" />
+      <File FileName="Assets/Scripts/BallController.cs" Line="14" Column="39" />
+      <File FileName="Assets/Scripts/CameraController.cs" />
+      <File FileName="Assets/Scripts/HelixController.cs" />
+      <File FileName="Assets/Scripts/GameManager.cs" Line="34" Column="23" />
+      <File FileName="Assets/Scripts/UIManager.cs" />
+      <File FileName="Assets/Scripts/Goal.cs" Line="12" Column="1" />
+      <File FileName="Assets/Scripts/PassCheck.cs" Line="9" Column="43" />
+      <File FileName="Assets/Scripts/DeathPart.cs" Line="2" Column="34" />
+      <File FileName="Assets/Scripts/Stage.cs" Line="7" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,7 +17,7 @@
           <Node name="Helix Jump" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="UIManager.cs" selected="True" />
+                <Node name="Stage.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -23,7 +27,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a3089b31-bb24-469c-812d-f2d142661e59" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="cf4d9c04-3bc6-4e91-a2f7-02c4b1ec0833" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
