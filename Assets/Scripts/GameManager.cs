@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Advertisements;
 
 public class GameManager : MonoBehaviour
 {
@@ -13,7 +14,8 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
-        if(singleton == null)
+        Advertisement.initialize(4381049);
+        if (singleton == null)
         {
             singleton = this;
         }else if(singleton != this)
@@ -25,7 +27,16 @@ public class GameManager : MonoBehaviour
     }
     public void NextLevel()
     {
-        currentStage++;
+        if(currentStage == 2)
+        {
+            currentStage = 0;
+        }
+        else
+        {
+            currentStage++;
+        }
+       
+        
         FindObjectOfType<BallController>().ResetBall();
         FindObjectOfType<HelixController>().LoadStage(currentStage);
         Debug.Log("next level started");
@@ -34,6 +45,8 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log("Game Over");
         //todo show ads
+        // android 4381049 ios 4381048
+        Advertisement.Show();
         singleton.score = 0;
         FindObjectOfType<BallController>().ResetBall();
         //Reload the stage

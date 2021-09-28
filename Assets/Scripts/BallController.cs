@@ -8,6 +8,8 @@ public class BallController : MonoBehaviour
     public Rigidbody rb;
     public float impulseForce = 3f;
     private Vector3 startPos;
+    public int perfecrPass = 0;
+    public bool isSupperSpeedActive;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,18 +20,40 @@ public class BallController : MonoBehaviour
         if (ignoreNextCollision)
             return;
 
-        //Adding reset level via death part, - initiallizes when deathpart is hit
-        DeathPart deathPart = collision.transform.GetComponent<DeathPart>();
-        if (deathPart)
+        if (isSupperSpeedActive)
         {
-            deathPart.HitDeathPart();
+            if (!collision.transform.GetComponent<Goal>())
+            {
+                Destroy(collision.transform.parent.gameObject);
+                Debug.Log("Destroying platform");
+            }
         }
+        else
+        {
+            //Adding reset level via death part, - initiallizes when deathpart is hit
+            DeathPart deathPart = collision.transform.GetComponent<DeathPart>();
+            if (deathPart)
+            {
+                deathPart.HitDeathPart();
+            }
+        }
+
 
         rb.velocity = Vector3.zero;
         rb.AddForce(Vector3.up * impulseForce, ForceMode.Impulse);
         ignoreNextCollision = true;
         Invoke("AllowCollision", .2f);
 
+        perfecrPass = 0;
+    }
+
+    private void Update()
+    {
+        if(perfecrPass >=3 && !isSupperSpeedActive)
+        {
+            isSupperSpeedActive = true;
+            rb.AddForce(Vector3.down * 10, ForceMode.Impulse);
+        }
     }
 
     private void AllowCollision()

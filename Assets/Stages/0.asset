@@ -13,30 +13,22 @@ MonoBehaviour:
   m_Name: 0
   m_EditorClassIdentifier: 
   stageBackgroundColor: {r: 0.29450375, g: 0, b: 0.9150943, a: 1}
-  stageLevelPartColor: {r: 0.9528302, g: 0, b: 0.40129462, a: 1}
+  stageLevelPartColor: {r: 0, g: 0.9529412, b: 0.8279282, a: 1}
   stageBallColor: {r: 0.10113953, g: 0.9339623, b: 0.022027409, a: 1}
   levels:
   - partCount: 11
-    deathPartCount: 2
-  - partCount: 10
-    deathPartCount: 2
-  - partCount: 11
-    deathPartCount: 2
-  - partCount: 9
-    deathPartCount: 2
-  - partCount: 10
     deathPartCount: 1
   - partCount: 10
-    deathPartCount: 1
-  - partCount: 10
-    deathPartCount: 2
-  - partCount: 9
-    deathPartCount: 2
-  - partCount: 9
-    deathPartCount: 2
-  - partCount: 11
     deathPartCount: 3
-  - partCount: 9
-    deathPartCount: 5
-  - partCount: 9
-    deathPartCount: 6
+  - partCount: 10
+    deathPartCount: 2
+  - partCount: 10
+    deathPartCount: 3
+  - partCount: 10
+    deathPartCount: 1
+  - partCount: 10
+    deathPartCount: 3
+  - partCount: 10
+    deathPartCount: 1
+  - partCount: 10
+    deathPartCount: 2
