@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
-        Advertisement.initialize(4381049);
+        Advertisement.Initialize("4381049");
         if (singleton == null)
         {
             singleton = this;
@@ -46,11 +46,18 @@ public class GameManager : MonoBehaviour
         Debug.Log("Game Over");
         //todo show ads
         // android 4381049 ios 4381048
-        Advertisement.Show();
+        ShowAdd();
         singleton.score = 0;
         FindObjectOfType<BallController>().ResetBall();
         //Reload the stage
         FindObjectOfType<HelixController>().LoadStage(currentStage);
+    }
+    private void ShowAdd()
+    {
+        if (Advertisement.isInitialized || Advertisement.IsReady())
+        { // If the ads are ready to be shown
+            Advertisement.Show(); // Show the default ad placement
+        }
     }
 
     public void AddScore(int scoreToAdd)

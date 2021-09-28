@@ -1,0 +1,4 @@
+#Tue Sep 28 20:01:58 EAT 2021
+base.0=/Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/launcher/build/intermediates/dex/release/mergeDexRelease/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
