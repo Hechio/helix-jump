@@ -10,6 +10,7 @@ public class BallController : MonoBehaviour
     private Vector3 startPos;
     public int perfecrPass = 0;
     public bool isSupperSpeedActive;
+    public AudioSource audioSource;
     // Start is called before the first frame update
     void Start()
     {
@@ -38,7 +39,7 @@ public class BallController : MonoBehaviour
             }
         }
 
-
+        audioSource.Play();
         rb.velocity = Vector3.zero;
         rb.AddForce(Vector3.up * impulseForce, ForceMode.Impulse);
         ignoreNextCollision = true;
@@ -54,6 +55,10 @@ public class BallController : MonoBehaviour
             isSupperSpeedActive = true;
             rb.AddForce(Vector3.down * 10, ForceMode.Impulse);
         }
+        else
+        {
+            isSupperSpeedActive = false;
+        }
     }
 
     private void AllowCollision()
@@ -63,6 +68,7 @@ public class BallController : MonoBehaviour
 
    public void ResetBall()
     {
+        perfecrPass = 0;
         transform.position = startPos;
     }
 }

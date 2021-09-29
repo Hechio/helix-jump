@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     public int currentStage = 0;
 
     public static GameManager singleton;
+    public AudioSource audioSource;
 
     private void Awake()
     {
@@ -27,7 +28,8 @@ public class GameManager : MonoBehaviour
     }
     public void NextLevel()
     {
-        if(currentStage == 2)
+        int allStages = FindObjectOfType<HelixController>().allStages.Count - 1;
+        if (currentStage == allStages)
         {
             currentStage = 0;
         }
@@ -43,14 +45,20 @@ public class GameManager : MonoBehaviour
     }
     public void RestartLevel()
     {
-        Debug.Log("Game Over");
-        //todo show ads
+        
         // android 4381049 ios 4381048
         ShowAdd();
         singleton.score = 0;
         FindObjectOfType<BallController>().ResetBall();
         //Reload the stage
         FindObjectOfType<HelixController>().LoadStage(currentStage);
+        if (Advertisement.isShowing)
+        {
+            audioSource.Stop();
+        }else
+        {
+            audioSource.Play();
+        }
     }
     private void ShowAdd()
     {
