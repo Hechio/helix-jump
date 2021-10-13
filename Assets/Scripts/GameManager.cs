@@ -25,6 +25,7 @@ public class GameManager : MonoBehaviour
         }
 
         best = PlayerPrefs.GetInt("Highscore");
+        currentStage = PlayerPrefs.GetInt("CurrentStage");
     }
     public void NextLevel()
     {
@@ -41,7 +42,7 @@ public class GameManager : MonoBehaviour
         
         FindObjectOfType<BallController>().ResetBall();
         FindObjectOfType<HelixController>().LoadStage(currentStage);
-        Debug.Log("next level started");
+        PlayerPrefs.SetInt("CurrentStage", currentStage);
     }
     public void RestartLevel()
     {

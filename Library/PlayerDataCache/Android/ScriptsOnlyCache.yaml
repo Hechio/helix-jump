@@ -23,6 +23,7 @@ ScriptsOnlyBuild:
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.RawImage
     - UnityEngine.UI.Text
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
@@ -72,6 +73,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 2058}
     - Class: 114
       Script: {instanceID: 2060}
+    - Class: 114
+      Script: {instanceID: 2196}
     - Class: 114
       Script: {instanceID: 2376}
     - Class: 114
@@ -585,7 +588,7 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
-      Hash: 8afb01962a99025f5f93ac65c9fb669d
+      Hash: 41681904b126c5f79ec25b0ce1231b10
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UIManager

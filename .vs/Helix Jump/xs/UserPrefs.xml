@@ -1,15 +1,15 @@
 ﻿<Properties StartupConfiguration="{8A7DE9F7-9B21-C7AD-BE72-24A2A49ABE91}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CameraController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameManager.cs">
     <Files>
       <File FileName="Assets/Scripts/BallController.cs" Line="8" Column="25" />
-      <File FileName="Assets/Scripts/CameraController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/CameraController.cs" />
       <File FileName="Assets/Scripts/HelixController.cs" />
       <File FileName="Assets/Scripts/UIManager.cs" />
       <File FileName="Assets/Scripts/Goal.cs" />
       <File FileName="Assets/Scripts/PassCheck.cs" />
       <File FileName="Assets/Scripts/DeathPart.cs" />
       <File FileName="Assets/Scripts/Stage.cs" />
-      <File FileName="Assets/Scripts/GameManager.cs" />
+      <File FileName="Assets/Scripts/GameManager.cs" Line="31" Column="59" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -25,7 +25,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c11b377f-bec2-49f6-a818-50f692cc4726" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d752eabb-26eb-4d02-944b-3382e9c4ddcd" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

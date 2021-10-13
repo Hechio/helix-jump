@@ -36,7 +36,8 @@
     <application
         android:extractNativeLibs="true"
         android:icon="@mipmap/app_icon"
-        android:label="@string/app_name" >
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_icon_round" >
         <activity
             android:name="com.unity3d.player.UnityPlayerActivity"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
@@ -69,7 +70,7 @@
             android:value="portrait|landscape" />
         <meta-data
             android:name="unity.build-id"
-            android:value="00a37fca-70ff-4f18-8591-03fff1cede03" />
+            android:value="de5bc17c-1d78-405b-8c87-aee6923b6229" />
 
         <activity
             android:name="com.unity3d.services.ads.adunit.AdUnitActivity"

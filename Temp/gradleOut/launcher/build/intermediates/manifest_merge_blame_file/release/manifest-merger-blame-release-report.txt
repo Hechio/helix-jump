@@ -57,117 +57,119 @@
 34-->[:UnityAds:] /Users/stevehechio/.gradle/caches/transforms-2/files-2.1/b1118aa3f79366e0497e6617d8a6b855/UnityAds/AndroidManifest.xml:9:22-76
 35
 36    <application
-36-->/Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:3-116
+36-->/Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:3-159
 37        android:extractNativeLibs="true"
 37-->/Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:16-48
 38        android:icon="@mipmap/app_icon"
 38-->/Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:82-113
-39        android:label="@string/app_name" >
+39        android:label="@string/app_name"
 39-->/Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:49-81
-40        <activity
-40-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:28:9-47:20
-41            android:name="com.unity3d.player.UnityPlayerActivity"
-41-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:29:13-66
-42            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-42-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:30:13-194
-43            android:hardwareAccelerated="false"
-43-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:31:13-48
-44            android:launchMode="singleTask"
-44-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:32:13-44
-45            android:screenOrientation="fullSensor"
-45-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:33:13-51
-46            android:theme="@style/UnityThemeSelector" >
-46-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:34:13-54
-47            <intent-filter>
-47-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:35:13-39:29
-48                <action android:name="android.intent.action.MAIN" />
-48-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:36:17-69
-48-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:36:25-66
-49
-50                <category android:name="android.intent.category.LAUNCHER" />
-50-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:38:17-77
-50-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:38:27-74
-51            </intent-filter>
-52
-53            <meta-data
-53-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:41:13-43:40
-54                android:name="unityplayer.UnityActivity"
-54-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:42:17-57
-55                android:value="true" />
-55-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:43:17-37
-56            <meta-data
-56-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:44:13-46:40
-57                android:name="android.notch_support"
-57-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:45:17-53
-58                android:value="true" />
-58-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:46:17-37
-59        </activity>
-60
-61        <meta-data
-61-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:49:9-51:33
-62            android:name="unity.splash-mode"
-62-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:50:13-45
-63            android:value="0" />
-63-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:51:13-30
-64        <meta-data
-64-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:52:9-54:36
-65            android:name="unity.splash-enable"
-65-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:53:13-47
-66            android:value="True" />
-66-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:54:13-33
-67        <meta-data
-67-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:55:9-57:50
-68            android:name="notch.config"
-68-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:56:13-40
-69            android:value="portrait|landscape" />
-69-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:57:13-47
-70        <meta-data
-70-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:58:9-60:68
-71            android:name="unity.build-id"
-71-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:59:13-42
-72            android:value="00a37fca-70ff-4f18-8591-03fff1cede03" />
-72-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:60:13-65
-73
-74        <activity
-74-->[:UnityAds:] /Users/stevehechio/.gradle/caches/transforms-2/files-2.1/b1118aa3f79366e0497e6617d8a6b855/UnityAds/AndroidManifest.xml:13:9-17:74
-75            android:name="com.unity3d.services.ads.adunit.AdUnitActivity"
-75-->[:UnityAds:] /Users/stevehechio/.gradle/caches/transforms-2/files-2.1/b1118aa3f79366e0497e6617d8a6b855/UnityAds/AndroidManifest.xml:14:13-74
-76            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
-76-->[:UnityAds:] /Users/stevehechio/.gradle/caches/transforms-2/files-2.1/b1118aa3f79366e0497e6617d8a6b855/UnityAds/AndroidManifest.xml:15:13-170
-77            android:hardwareAccelerated="true"
-77-->[:UnityAds:] /Users/stevehechio/.gradle/caches/transforms-2/files-2.1/b1118aa3f79366e0497e6617d8a6b855/UnityAds/AndroidManifest.xml:16:13-47
-78            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-78-->[:UnityAds:] /Users/stevehechio/.gradle/caches/transforms-2/files-2.1/b1118aa3f79366e0497e6617d8a6b855/UnityAds/AndroidManifest.xml:17:13-71
-79        <activity
-79-->[:UnityAds:] /Users/stevehechio/.gradle/caches/transforms-2/files-2.1/b1118aa3f79366e0497e6617d8a6b855/UnityAds/AndroidManifest.xml:18:9-22:86
-80            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentActivity"
-80-->[:UnityAds:] /Users/stevehechio/.gradle/caches/transforms-2/files-2.1/b1118aa3f79366e0497e6617d8a6b855/UnityAds/AndroidManifest.xml:19:13-85
-81            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
-81-->[:UnityAds:] /Users/stevehechio/.gradle/caches/transforms-2/files-2.1/b1118aa3f79366e0497e6617d8a6b855/UnityAds/AndroidManifest.xml:20:13-170
-82            android:hardwareAccelerated="true"
-82-->[:UnityAds:] /Users/stevehechio/.gradle/caches/transforms-2/files-2.1/b1118aa3f79366e0497e6617d8a6b855/UnityAds/AndroidManifest.xml:21:13-47
-83            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
-83-->[:UnityAds:] /Users/stevehechio/.gradle/caches/transforms-2/files-2.1/b1118aa3f79366e0497e6617d8a6b855/UnityAds/AndroidManifest.xml:22:13-83
-84        <activity
-84-->[:UnityAds:] /Users/stevehechio/.gradle/caches/transforms-2/files-2.1/b1118aa3f79366e0497e6617d8a6b855/UnityAds/AndroidManifest.xml:23:9-27:86
-85            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity"
-85-->[:UnityAds:] /Users/stevehechio/.gradle/caches/transforms-2/files-2.1/b1118aa3f79366e0497e6617d8a6b855/UnityAds/AndroidManifest.xml:24:13-93
-86            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
-86-->[:UnityAds:] /Users/stevehechio/.gradle/caches/transforms-2/files-2.1/b1118aa3f79366e0497e6617d8a6b855/UnityAds/AndroidManifest.xml:25:13-170
-87            android:hardwareAccelerated="false"
-87-->[:UnityAds:] /Users/stevehechio/.gradle/caches/transforms-2/files-2.1/b1118aa3f79366e0497e6617d8a6b855/UnityAds/AndroidManifest.xml:26:13-48
-88            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
-88-->[:UnityAds:] /Users/stevehechio/.gradle/caches/transforms-2/files-2.1/b1118aa3f79366e0497e6617d8a6b855/UnityAds/AndroidManifest.xml:27:13-83
-89        <activity
-89-->[:UnityAds:] /Users/stevehechio/.gradle/caches/transforms-2/files-2.1/b1118aa3f79366e0497e6617d8a6b855/UnityAds/AndroidManifest.xml:28:9-32:74
-90            android:name="com.unity3d.services.ads.adunit.AdUnitSoftwareActivity"
-90-->[:UnityAds:] /Users/stevehechio/.gradle/caches/transforms-2/files-2.1/b1118aa3f79366e0497e6617d8a6b855/UnityAds/AndroidManifest.xml:29:13-82
-91            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
-91-->[:UnityAds:] /Users/stevehechio/.gradle/caches/transforms-2/files-2.1/b1118aa3f79366e0497e6617d8a6b855/UnityAds/AndroidManifest.xml:30:13-170
-92            android:hardwareAccelerated="false"
-92-->[:UnityAds:] /Users/stevehechio/.gradle/caches/transforms-2/files-2.1/b1118aa3f79366e0497e6617d8a6b855/UnityAds/AndroidManifest.xml:31:13-48
-93            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-93-->[:UnityAds:] /Users/stevehechio/.gradle/caches/transforms-2/files-2.1/b1118aa3f79366e0497e6617d8a6b855/UnityAds/AndroidManifest.xml:32:13-71
-94    </application>
-95
-96</manifest>
+40        android:roundIcon="@mipmap/app_icon_round" >
+40-->/Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:114-156
+41        <activity
+41-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:28:9-47:20
+42            android:name="com.unity3d.player.UnityPlayerActivity"
+42-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:29:13-66
+43            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+43-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:30:13-194
+44            android:hardwareAccelerated="false"
+44-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:31:13-48
+45            android:launchMode="singleTask"
+45-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:32:13-44
+46            android:screenOrientation="fullSensor"
+46-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:33:13-51
+47            android:theme="@style/UnityThemeSelector" >
+47-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:34:13-54
+48            <intent-filter>
+48-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:35:13-39:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:36:17-69
+49-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:36:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:38:17-77
+51-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:38:27-74
+52            </intent-filter>
+53
+54            <meta-data
+54-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:41:13-43:40
+55                android:name="unityplayer.UnityActivity"
+55-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:42:17-57
+56                android:value="true" />
+56-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:43:17-37
+57            <meta-data
+57-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:44:13-46:40
+58                android:name="android.notch_support"
+58-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:45:17-53
+59                android:value="true" />
+59-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:46:17-37
+60        </activity>
+61
+62        <meta-data
+62-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:49:9-51:33
+63            android:name="unity.splash-mode"
+63-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:50:13-45
+64            android:value="0" />
+64-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:51:13-30
+65        <meta-data
+65-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:52:9-54:36
+66            android:name="unity.splash-enable"
+66-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:53:13-47
+67            android:value="True" />
+67-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:54:13-33
+68        <meta-data
+68-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:55:9-57:50
+69            android:name="notch.config"
+69-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:56:13-40
+70            android:value="portrait|landscape" />
+70-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:57:13-47
+71        <meta-data
+71-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:58:9-60:68
+72            android:name="unity.build-id"
+72-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:59:13-42
+73            android:value="de5bc17c-1d78-405b-8c87-aee6923b6229" />
+73-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Helix Jump/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:60:13-65
+74
+75        <activity
+75-->[:UnityAds:] /Users/stevehechio/.gradle/caches/transforms-2/files-2.1/b1118aa3f79366e0497e6617d8a6b855/UnityAds/AndroidManifest.xml:13:9-17:74
+76            android:name="com.unity3d.services.ads.adunit.AdUnitActivity"
+76-->[:UnityAds:] /Users/stevehechio/.gradle/caches/transforms-2/files-2.1/b1118aa3f79366e0497e6617d8a6b855/UnityAds/AndroidManifest.xml:14:13-74
+77            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+77-->[:UnityAds:] /Users/stevehechio/.gradle/caches/transforms-2/files-2.1/b1118aa3f79366e0497e6617d8a6b855/UnityAds/AndroidManifest.xml:15:13-170
+78            android:hardwareAccelerated="true"
+78-->[:UnityAds:] /Users/stevehechio/.gradle/caches/transforms-2/files-2.1/b1118aa3f79366e0497e6617d8a6b855/UnityAds/AndroidManifest.xml:16:13-47
+79            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+79-->[:UnityAds:] /Users/stevehechio/.gradle/caches/transforms-2/files-2.1/b1118aa3f79366e0497e6617d8a6b855/UnityAds/AndroidManifest.xml:17:13-71
+80        <activity
+80-->[:UnityAds:] /Users/stevehechio/.gradle/caches/transforms-2/files-2.1/b1118aa3f79366e0497e6617d8a6b855/UnityAds/AndroidManifest.xml:18:9-22:86
+81            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentActivity"
+81-->[:UnityAds:] /Users/stevehechio/.gradle/caches/transforms-2/files-2.1/b1118aa3f79366e0497e6617d8a6b855/UnityAds/AndroidManifest.xml:19:13-85
+82            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+82-->[:UnityAds:] /Users/stevehechio/.gradle/caches/transforms-2/files-2.1/b1118aa3f79366e0497e6617d8a6b855/UnityAds/AndroidManifest.xml:20:13-170
+83            android:hardwareAccelerated="true"
+83-->[:UnityAds:] /Users/stevehechio/.gradle/caches/transforms-2/files-2.1/b1118aa3f79366e0497e6617d8a6b855/UnityAds/AndroidManifest.xml:21:13-47
+84            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+84-->[:UnityAds:] /Users/stevehechio/.gradle/caches/transforms-2/files-2.1/b1118aa3f79366e0497e6617d8a6b855/UnityAds/AndroidManifest.xml:22:13-83
+85        <activity
+85-->[:UnityAds:] /Users/stevehechio/.gradle/caches/transforms-2/files-2.1/b1118aa3f79366e0497e6617d8a6b855/UnityAds/AndroidManifest.xml:23:9-27:86
+86            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity"
+86-->[:UnityAds:] /Users/stevehechio/.gradle/caches/transforms-2/files-2.1/b1118aa3f79366e0497e6617d8a6b855/UnityAds/AndroidManifest.xml:24:13-93
+87            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+87-->[:UnityAds:] /Users/stevehechio/.gradle/caches/transforms-2/files-2.1/b1118aa3f79366e0497e6617d8a6b855/UnityAds/AndroidManifest.xml:25:13-170
+88            android:hardwareAccelerated="false"
+88-->[:UnityAds:] /Users/stevehechio/.gradle/caches/transforms-2/files-2.1/b1118aa3f79366e0497e6617d8a6b855/UnityAds/AndroidManifest.xml:26:13-48
+89            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+89-->[:UnityAds:] /Users/stevehechio/.gradle/caches/transforms-2/files-2.1/b1118aa3f79366e0497e6617d8a6b855/UnityAds/AndroidManifest.xml:27:13-83
+90        <activity
+90-->[:UnityAds:] /Users/stevehechio/.gradle/caches/transforms-2/files-2.1/b1118aa3f79366e0497e6617d8a6b855/UnityAds/AndroidManifest.xml:28:9-32:74
+91            android:name="com.unity3d.services.ads.adunit.AdUnitSoftwareActivity"
+91-->[:UnityAds:] /Users/stevehechio/.gradle/caches/transforms-2/files-2.1/b1118aa3f79366e0497e6617d8a6b855/UnityAds/AndroidManifest.xml:29:13-82
+92            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+92-->[:UnityAds:] /Users/stevehechio/.gradle/caches/transforms-2/files-2.1/b1118aa3f79366e0497e6617d8a6b855/UnityAds/AndroidManifest.xml:30:13-170
+93            android:hardwareAccelerated="false"
+93-->[:UnityAds:] /Users/stevehechio/.gradle/caches/transforms-2/files-2.1/b1118aa3f79366e0497e6617d8a6b855/UnityAds/AndroidManifest.xml:31:13-48
+94            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+94-->[:UnityAds:] /Users/stevehechio/.gradle/caches/transforms-2/files-2.1/b1118aa3f79366e0497e6617d8a6b855/UnityAds/AndroidManifest.xml:32:13-71
+95    </application>
+96
+97</manifest>

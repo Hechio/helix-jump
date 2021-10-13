@@ -21,7 +21,7 @@ public class HelixController : MonoBehaviour
     {
         startRotation = transform.localEulerAngles;
         helixDistance = topTransform.localPosition.y - (goalTransform.localPosition.y + 0.1f);
-        LoadStage(0);
+        LoadStage(GameManager.singleton.currentStage);
     }
     
 
