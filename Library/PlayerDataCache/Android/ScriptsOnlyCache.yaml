@@ -66,33 +66,33 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1872}
+      Script: {instanceID: 1900}
     - Class: 114
-      Script: {instanceID: 1916}
+      Script: {instanceID: 1944}
     - Class: 114
-      Script: {instanceID: 2058}
+      Script: {instanceID: 2086}
     - Class: 114
-      Script: {instanceID: 2060}
+      Script: {instanceID: 2088}
     - Class: 114
-      Script: {instanceID: 2196}
+      Script: {instanceID: 2224}
     - Class: 114
-      Script: {instanceID: 2376}
+      Script: {instanceID: 2404}
     - Class: 114
-      Script: {instanceID: 2488}
+      Script: {instanceID: 2516}
     - Class: 114
-      Script: {instanceID: 2658}
+      Script: {instanceID: 2686}
     - Class: 114
-      Script: {instanceID: 2844}
+      Script: {instanceID: 2872}
     - Class: 114
-      Script: {instanceID: 3044}
+      Script: {instanceID: 3072}
     - Class: 114
-      Script: {instanceID: 3330}
+      Script: {instanceID: 3358}
     - Class: 114
-      Script: {instanceID: 3474}
+      Script: {instanceID: 3502}
     - Class: 114
-      Script: {instanceID: 3826}
+      Script: {instanceID: 3854}
     - Class: 114
-      Script: {instanceID: 4396}
+      Script: {instanceID: 4424}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -619,4 +619,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: /Users/stevehechio/CreateWithCode/Helix Jump/HelixJump.apk
+  playerPath: /Users/stevehechio/CreateWithCode/Helix Jump/HelixJump.aab

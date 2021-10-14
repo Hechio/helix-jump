@@ -12,10 +12,11 @@ public class GameManager : MonoBehaviour
 
     public static GameManager singleton;
     public AudioSource audioSource;
+    bool testMode = false;
 
     private void Awake()
     {
-        Advertisement.Initialize("4381049");
+        Advertisement.Initialize("4381049",testMode);
         if (singleton == null)
         {
             singleton = this;

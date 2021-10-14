@@ -9,7 +9,7 @@
       <File FileName="Assets/Scripts/PassCheck.cs" />
       <File FileName="Assets/Scripts/DeathPart.cs" />
       <File FileName="Assets/Scripts/Stage.cs" />
-      <File FileName="Assets/Scripts/GameManager.cs" Line="31" Column="59" />
+      <File FileName="Assets/Scripts/GameManager.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -25,7 +25,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d752eabb-26eb-4d02-944b-3382e9c4ddcd" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="73fb350e-7b5d-4bc3-95d6-de1a30639beb" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
