@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{8A7DE9F7-9B21-C7AD-BE72-24A2A49ABE91}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BallController.cs">
     <Files>
       <File FileName="Assets/Scripts/BallController.cs" Line="8" Column="25" />
       <File FileName="Assets/Scripts/CameraController.cs" />
@@ -9,13 +9,13 @@
       <File FileName="Assets/Scripts/PassCheck.cs" />
       <File FileName="Assets/Scripts/DeathPart.cs" />
       <File FileName="Assets/Scripts/Stage.cs" />
-      <File FileName="Assets/Scripts/GameManager.cs" Line="19" Column="40" />
+      <File FileName="Assets/Scripts/GameManager.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Helix Jump" expanded="True" selected="True">
-            <Node name="Assets" expanded="True">
+          <Node name="Helix Jump" expanded="True">
+            <Node name="Assets" expanded="True" selected="True">
               <Node name="Scripts" expanded="True" />
             </Node>
           </Node>
@@ -25,7 +25,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="9921723d-97e2-4209-9347-f6ccb3b19ec4" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="822b5fcd-524b-4d05-bf88-519776be36ff" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
