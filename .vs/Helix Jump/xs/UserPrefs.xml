@@ -14,8 +14,8 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Helix Jump" expanded="True">
-            <Node name="Assets" expanded="True" selected="True">
+          <Node name="Helix Jump" expanded="True" selected="True">
+            <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True" />
             </Node>
           </Node>
